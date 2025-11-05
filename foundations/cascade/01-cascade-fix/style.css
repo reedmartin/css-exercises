@@ -7,36 +7,35 @@ body {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
+.para {
+  font-size: 24px;
+}
 
 .small-para {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
-.button {
+.button.cancel {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-size: 20px;
+  font-size: bold;
 }
 
-.child {
+.text {
   color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-
-div.text {
-  color: rgb(0, 0, 0);
+  font-weight: 200;
   font-size: 22px;
-  font-weight: 100;
+}
+
+.text .child {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 800;
 }
